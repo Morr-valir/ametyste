@@ -37,5 +37,9 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToDashboard('Dashboard', 'fa fa-home');
         yield MenuItem::section('Gestions des cours');
         yield MenuItem::linkToCrud('Les Cours', 'fas fa-list', Cours::class);
+        yield MenuItem::section('Options');
+        yield MenuItem::linkToUrl('Retour au site','fas fa-sign-out-alt','/');
+
+
     }
 }
