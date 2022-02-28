@@ -19,6 +19,9 @@ class Cours
     #[ORM\Column(type: 'string', length: 100)]
     private $Age;
 
+    #[ORM\Column(type: 'string', length: 2000, nullable: true)]
+    private $Descriptions;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -44,6 +47,18 @@ class Cours
     public function setAge(string $Age): self
     {
         $this->Age = $Age;
+
+        return $this;
+    }
+
+    public function getDescriptions(): ?string
+    {
+        return $this->Descriptions;
+    }
+
+    public function setDescriptions(?string $Descriptions): self
+    {
+        $this->Descriptions = $Descriptions;
 
         return $this;
     }
