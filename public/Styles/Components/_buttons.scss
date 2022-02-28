@@ -1,0 +1,14 @@
+//Styles des boutons
+.btn-link{
+  background: #a49fc5b8;
+  color: #323232;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: .5s ease;
+  &:hover{
+    color: whitesmoke;
+    background: #323232;
+  }
+}

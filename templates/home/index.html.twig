@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ controller_name }}{% endblock %}
+
+{% block body %}
+<main>
+    <section class="Welcome">
+        <div  class="container">
+            <h1 class="h1">Bienvenue<br> à<br> Améthyste's Dance</h1>
+        </div>
+    </section>
+    <section class="Apropos">
+        <div class="container">
+            <figure class="pb-5">
+                <img src="{{ asset('/Assets/medias/logo site danse def.png') }}" alt="Logo Améthyste's Dance">
+            </figure>
+            <h2 class="h1 pb-3">À propos de notre École de danse</h2>
+            <blockquote class="pb-5">
+                « Les grands danseurs ne sont pas grands à cause de leur technique, ils sont grands à cause <br>
+                de leur passion » (Martha Graham)
+            </blockquote>
+            <p class="pb-5">
+                Améthyste's Dance propose un enseignement technique et artistique dans un esprit de convivialité et de joie de vivre.
+                Elle revendique haut et fort son statut  d'école amateur où le plaisir et la passion sont essentiels.
+            </p>
+            <a href="#" class="btn btn-link">En savoir plus</a>
+        </div>
+    </section>
+    <section class="Cours p-5">
+        <div class="container">
+            <h3 class="h1 pb-3">Nos cours</h3>
+            <p>Notre École de danse offre une grande variété de cours de danse pour tous les niveaux.</p>
+            <div class="row list-cours">
+                <article class="col-3">
+                    <figure>
+                        <img class="pb-3" src="{{ asset('/Assets/medias/Danse-classique.jpg') }}" alt="Cours de danse classique">
+                        <figcaption>Danse classique</figcaption>
+                    </figure>
+                    <p>Enfant à  partir de 5 ans / Ados / Adultes</p>
+                </article>
+                <article class="col-3">
+                    <figure>
+                        <img class="pb-3" src="{{ asset('/Assets/medias/Modern-Jazz.jpg') }}" alt="Cours de Danse Modern Jazz">
+                        <figcaption>Danse Modern Jazz</figcaption>
+                    </figure>
+                    <p>Enfant à partir de 7ans / Ados / Adultes</p>
+                </article>
+                <article class="col-3">
+                    <figure>
+                        <img class="pb-3" src="{{ asset('/Assets/medias/barre au sol.jpg') }}" alt="Cours de barre au sol">
+                        <figcaption>Barre au sol</figcaption>
+                    </figure>
+                    <p>Ados / Adultes</p>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

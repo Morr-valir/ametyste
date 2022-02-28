@@ -1,0 +1,17 @@
+#Header{
+  padding: 1rem;
+  background: #3e3e3e;
+  .content-navbar{
+    flex-flow: column wrap;
+    .menu-bottom{
+      gap: 1.5rem;
+      border-top: 0.08rem solid white;
+      margin-top: 1rem;
+    }
+  }
+}
+
+// Nav items
+.nav-link{
+  color: whitesmoke !important;
+}

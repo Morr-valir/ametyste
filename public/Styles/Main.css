@@ -1,0 +1,87 @@
+#Header {
+  padding: 1rem;
+  background: #3e3e3e;
+}
+#Header .content-navbar {
+  flex-flow: column wrap;
+}
+#Header .content-navbar .menu-bottom {
+  gap: 1.5rem;
+  border-top: 0.08rem solid white;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  color: whitesmoke !important;
+}
+
+.btn-link {
+  background: #a49fc5b8;
+  color: #323232;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: 0.5s ease;
+}
+.btn-link:hover {
+  color: whitesmoke;
+  background: #323232;
+}
+
+.Welcome {
+  padding: 6rem;
+  text-align: center;
+  background-image: url("/Assets/medias/Section-Welcom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Welcome .h1 {
+  font-size: 3.875rem;
+  color: whitesmoke;
+}
+
+.Apropos {
+  background: #483d8b;
+  padding: 5rem;
+  text-align: center;
+}
+.Apropos .container {
+  max-width: 780px;
+}
+.Apropos .container .h1 {
+  color: #d8bde2;
+  font-size: 2.5rem;
+}
+.Apropos .container blockquote {
+  font-style: italic;
+  color: whitesmoke;
+}
+.Apropos .container p {
+  font-size: 1.125rem;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.Cours .h1 {
+  color: #604562;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.Cours p {
+  text-align: center;
+}
+.Cours .list-cours {
+  margin-top: 80px;
+  justify-content: center;
+  gap: 5rem;
+}
+.Cours .list-cours figcaption {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c68484;
+}
+
+/*# sourceMappingURL=Main.css.map */
