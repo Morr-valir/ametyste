@@ -22,6 +22,9 @@ class Cours
     #[ORM\Column(type: 'string', length: 2000, nullable: true)]
     private $Descriptions;
 
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    private $images;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -59,6 +62,18 @@ class Cours
     public function setDescriptions(?string $Descriptions): self
     {
         $this->Descriptions = $Descriptions;
+
+        return $this;
+    }
+
+    public function getImages(): ?string
+    {
+        return $this->images;
+    }
+
+    public function setImages(?string $images): self
+    {
+        $this->images = $images;
 
         return $this;
     }
