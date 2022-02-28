@@ -15,6 +15,20 @@
   color: whitesmoke !important;
 }
 
+#Footer {
+  padding: 1rem;
+  background: #3e3e3e;
+  text-align: center;
+}
+#Footer .h2 {
+  color: whitesmoke;
+  background: linear-gradient(#c68484, #c68484);
+  background-position: 50% 90%, 0 100%;
+  background-size: 10% 0.3em, 0 0.3em;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
 .btn-link {
   background: #a49fc5b8;
   color: #323232;

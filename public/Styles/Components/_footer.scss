@@ -1,0 +1,13 @@
+#Footer{
+  padding: 1rem;
+  background: #3e3e3e;
+  text-align: center;
+  .h2{
+    color: whitesmoke;
+    background: linear-gradient(rgb(198 132 132), rgb(198 132 132));
+    background-position: 50% 90%, 0 100%;
+    background-size: 10% 0.3em, 0 0.3em;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+}
